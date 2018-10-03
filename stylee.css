@@ -1,230 +1,181 @@
 html, body {margin: 0;max-width: 100%;overflow: hidden;} 
-	/* ----------- iPhone 5, 5S, 5C and 5SE 
-  /* ----------- p20 lite ----------- */
-/* Portrait
-@media screen and (min-device-width: 321px) and (min-device-height: 660px)
-  {
-  	 .logo-cent{
-  	 	display: block;
-		margin-top: 10% !important;
-		margin-left: 14% !important;
-		margin-bottom: 16% !important;
-	}
-	.logo-cent-small{
-		display: none;
-		margin-top: 28% !important;
-		margin-left: 18% !important;
-		margin-bottom: 17% !important;
-	}
-  		.menuItem{
-			width:50% !important;
-		display:inline-block !important;
-		background: #00b386;
-		border:2px solid white;
-		border-radius: 8px;
-	}
-		.title{
-		text-align: center;
-		color:white;
-		margin-top: -5%;
-		margin-bottom: 25%;
-		font-weight: 6px;
-	}
-	.fa-cen{
-		text-align: center; 
-		display: inline-block; 
-		margin-top: 25% !important;
-	}
-	div a:hover{
-		text-decoration: none;
-	}
-	.fa-2x{
-		color:white;
-		margin-top: 5%;
-		color:white;
-	}
-	h6 span{
-		display: none;
-	}
-  }
-  ----------- */
-  /* ----------- very common ----------- */
-  /* Portrait */
-	  .fullback-landscape{
-		  display: none;
-	  }
-  	 .logo-cent{
-		width: 100vw !important;
-		max-width: 100% !important;
-		height: 35vh !important;
-		padding-top: 15vh !important;
-		position:absolute;
- 		left:0;
-  		top:0;
-  		right:0;
-  		bottom:0;
-  		background:url('logo_3.png') 50% 50% no-repeat;
-	}
-	.logo-cent-small{
-		width: 100vw !important;
-		max-width: 100% !important;
-		height: 35vh !important;
-		padding-top: 15vh !important;
-		position:absolute;
-  		left:0;
-  		top:0;
-  		right:0;
-  		bottom:0;
-  		background:url('logo_2.png') 50% 50% no-repeat;
-	}
-  		.menuItem{
-			width:50vw !important;
-			height: 21.4vh !important;
-		display:inline-block !important;
-		background: #00b386;
-		border:2px solid white;
-		border-radius: 8px;
-	}
-		.title{
-		text-align: center;
-		color:white;
-		margin-top: -1vh !important;
-		margin-bottom: 22% !important;
-		font-weight: .5rem;
-	}
-	.fa-cen{
-		text-align: center; 
-		display: inline-block; 
-		color: white;
-		height: 50%;
-		width:50%;
-	}
-	div a:hover{
-		text-decoration: none;
-	}
-	.fa-2x{
-		color:white;
-		margin-top: 18% !important;
-	}
-	h6 span{
-		display: none;
-	}
-	.fullback{
-		margin-top: 35vh !important;
-	}
+.layout{
+	margin-left: -15px !important;
+}
+.sec15{
+	width: 100vw;
+	height: 18vh;
+	position:absolute;
+  	left:0;
+  	top:0;
+  	right:0;
+  	bottom:0;
+	background:url('logo.png') 50% 50% no-repeat;
+	 
+}
+.sec25{
+	margin-top: 17vh;
+	width: 100vw;
+	height: 27.5vh;
+}
+.sec60{
+	width: 100vw;
+	height: 60vh;
+}
+.sec25 img{
+	width: 100%;
+	height: 26.6vh;
+}
+.box25{
+	width: 51.5vw !important;
+	float: left;
+	height: 25vh;
+	background-color: #008cff;
+	border: 2.5px solid white;
+	border-top: 0px;
 
-
-  /* landscape new*/
-  @media screen and (max-device-width: 1080px) and (orientation:landscape)
-  {
-	.logo-cent, .fullback{
-		height: 0vh !important;
-		display: none;
-	}
-	.fullback-landscape{
-		display: block;
-		margin-top: 33.3vh !important;		
-	}
-	.logo-cent-small{
-		width: 100vw !important;
-		max-width: 100% !important;
-		height: 35vh !important;
-		padding-top: 15vh !important;
-		position:absolute;
-  		left:0;
-  		top:0;
-  		right:0;
-  		bottom:0;
-  		background:url('logo_2.png') 50% 50% no-repeat;
-	}
-		.menuItem{
-			width:33.3vw !important;
-			height: 33vh !important;
-		display:inline !important;
-		background: #00b386;
-		border:2px solid white;
-		border-radius: 8px;
-	}
-	.title{
+}
+.box25 img{
+	height: auto;
+	width: 45%;
+	margin-left: 13vw;
+	margin-top: 5vh
+}
+.box18{
+	width: 27vw !important;
+	float: right;
+	height: 18vh;
+	background-color: #1a98ff;
+	border: 2.5px solid white;
+	border-top: 0px;
+}
+.box18 img{
+	height: auto;
+	width: 60%;
+	margin-left: 3.5vw;
+	margin-top: 4.5vh
+}
+.box18_2{
+	width: 27vw !important;
+	float: right;
+	height: 18vh;
+	background-color: #4dafff;
+	border: 2.5px solid white;
+	border-top: 0px;
+}
+.box18_2 img{
+	height: auto;
+	width: 60%;
+	margin-left: 3vw;
+	margin-top: 4.5vh
+}
+.box13{
+	width: 27.5vw !important;
+	float: left;
+	height: 13vh;
+	background-color: #1a98ff;
+	border: 2.5px solid white;
+}
+.box13 img{
+	height: auto;
+	width: 50%;
+	margin-left: 6.3vw;
+	margin-top: 2.8vh
+}
+.box13_2{
+	width: 24vw !important;
+	height: 13vh;
+	background-color:#4dafff;
+	border: 2.5px solid white;
+}
+.box13_2 img{
+	height: auto;
+	width: 50%;
+	margin-left: 4vw;
+	margin-top: 2.8vh
+}
+.box20{
+	width: 53vw !important;
+	float: right;
+	height: 20vh;
+	background-color: #008cff;
+	margin-top: -7vh;
+	border: 2.5px solid white;
+}
+.box20 img{
+	height: auto;
+	width: 40%;
+	margin-left: 13vw;
+	margin-top: 2.5vh
+}
+.box18_b{
+	width: 51.5vw !important;
+	float: left;
+	height: 17vh;
+	background-color: #008cff;
+	border: 2.5px solid white;
+}
+.box18_b img{
+	height: auto;
+	width: 40%;
+	margin-left: 15vw;
+	margin-top: 2vh
+}
+.box18_b1{
+	width: 26.5vw !important;
+	float: right;
+	height: 17vh;
+	background-color: #4dafff;
+	border: 2.5px solid white;
+}
+.box18_b1 img{
+	height: auto;
+	width: 50%;
+	margin-left: 4.5vw;
+	margin-top: 4.5vh
+}
+.box18_b2{
+	width: 26.5vw !important;
+	float: right;
+	height: 17vh;
+	background-color: #1a98ff;
+	border: 2.5px solid white;
+}
+.box18_b2 img{
+	height: auto;
+	width: 50%;
+	margin-left: 4vw;
+	margin-top: 4.5vh
+}
+.title{
 	text-align: center;
-	color:white;
-	margin-top: -1vh !important;
-	margin-bottom:-10px !important;
-	font-weight: .5rem;
-}
-.fa-cen{
-	text-align: center; 
-	display: inline-block; 
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: white;
-	height: 50%;
-	width:50%;
-	padding-top: 0% !important;
 }
-div a:hover{
-	text-decoration: none;
+#title1{
+	margin-left: 3vw;
 }
-.fa-2x{
-	color:white;
+#title2{
+	line-height:2.5vh;
+	margin-top: 1.5vh;
 }
-  }
-
-  /* -----------very common in india 
-  @media screen and (min-device-width: 412px) and (min-device-height: 732px)
-  {
-  	 .logo-cent{
-  	 	display: block;
-		margin-top: 8% !important;
-		margin-left: 19% !important;
-		margin-bottom: 15% !important;
-	}
-	.logo-cent-small{
-		display: none;
-		margin-top: 28% !important;
-		margin-left: 18% !important;
-		margin-bottom: 17% !important;
-	}
-  		.menuItem{
-			width:50% !important;
-		display:inline-block !important;
-		background: #00b386;
-		border:2px solid white;
-		border-radius: 8px;
-	}
-		.title{
-		text-align: center;
-		color:white;
-		margin-top: -5%;
-		margin-bottom: 25%;
-		font-weight: 6px;
-	}
-	.fa-cen{
-		text-align: center; 
-		display: inline-block; 
-		margin-top: 25% !important;
-	}
-	div a:hover{
-		text-decoration: none;
-	}
-	.fa-2x{
-		color:white;
-		margin-top: 5%;
-		color:white;
-	}
-	h6 span{
-		display: none;
-	}
-  }
-
-   /* -----------very common in india
-  @media screen and (min-device-width: 732px) and (min-device-height: 412px) and (orientation: landscape)
-  {
-  	.logo-cent{
-		margin-top: 100px !important;
-		margin-left: 50% !important;
-		
-	}
-	.fullback{
-		display: none;
-	}
+#title3{
+	margin-top: 0.8vh;
 }
------------ */
+#title4{
+	font-size: 13px;
+	margin-left: 1vw;
+}
+#title6{
+	margin-left: vw;
+}
+#title7{
+	margin-left: 4vw;
+}
+#title8{
+	margin-top: .5vh;
+}
+#title9{
+	line-height:2.5vh;
+	margin-top: 1vh;
+}
